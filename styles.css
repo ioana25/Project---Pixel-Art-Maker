@@ -1,19 +1,37 @@
 body {
     text-align: center;
-}
+    }
 
 h1 {
     font-family: Monoton;
-    font-size: 70px;
+    font-size: 100px;
     margin: 0.2em;
+    background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    text-align: center;
+
 }
 
 h2 {
     margin: 1em 0 0.25em;
-}
+    }
 
 h2:first-of-type {
     margin-top: 0.5em;
+    color: #191970;
+    }
+
+.button{
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #191970;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #999;
 }
 
 table,
